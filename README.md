@@ -15,7 +15,7 @@ const BrowserHeadersGenerator = require("browser-headers-generator");
 const browserHeadersGenerator = new BrowserHeadersGenerator();
 await browserHeadersGenerator.initialize()
 
-const randomBrowserHeaders = await await browserHeadersGenerator.getRandomizedHeaders()
+const randomBrowserHeaders = await browserHeadersGenerator.getRandomizedHeaders()
 ```
 
 Get random headers only for Chrome on windows:
@@ -30,5 +30,5 @@ const browserHeadersGenerator = new BrowserHeadersGenerator({
 
 await browserHeadersGenerator.initialize()
 
-const randomBrowserHeaders = await await browserHeadersGenerator.getRandomizedHeaders()
+const randomBrowserHeaders = await browserHeadersGenerator.getRandomizedHeaders()
 ```
